@@ -1,0 +1,186 @@
+.macro_counter {
+    font-family: 'ProximaNovaExCnSemiBold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    border: solid 6px;
+    background-color: #e5a3a3;
+}
+.Title {
+    padding: 10px;
+    color: white;
+    background-color: rgb(4, 4, 83);
+}
+
+.Goal {
+    width: 1000px;
+    Margin: 10px;
+    padding: 10px;
+}
+
+.Gender {
+    margin: 10px;
+    padding: 10px;
+}
+
+.Age {
+    margin: 10px;
+    padding: 10px;
+}
+
+.Weight {
+    margin: 10px;
+    padding: 10px;
+}
+.Height {
+    margin: 10px;
+    padding: 10px;
+}
+
+.feet {
+    margin: 10px;
+    padding: 10px;
+}
+
+.inches {
+    margin: 10px;
+    padding: 10px;
+}
+
+.Training {
+    margin: 10px;
+    padding: 10px;
+}
+
+.Training_Yes {
+    display:none;
+    margin: 10px;
+    padding: 10px; 
+}
+
+.Name {
+    margin: 10px;
+    padding: 10px;
+}
+
+.Email {
+    margin: 10px;
+    padding: 10px;
+}
+
+.Submit {
+    margin: 10px;
+    padding: 10px;
+}
+
+.Macros {
+    display: none;
+    margin: 10px;
+    padding: 10px;
+}
+
+button {
+    margin: 10px;
+    padding: 10px;
+    width:1000px;
+    align-items: center;
+    background-color: #FFE7E7;
+    background-position: 0 0;
+    border: 1px solid #FEE0E0;
+    border-radius: 11px;
+    box-sizing: border-box;
+    color: #D33A2C;
+    cursor: pointer;
+    display: flex;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 33.4929px;
+    list-style: outside url(https://www.smashingmagazine.com/images/bullet.svg) none;
+    padding: 2px 12px;
+    text-align: left;
+    text-decoration: none;
+    text-shadow: none;
+    text-underline-offset: 1px;
+    transition: border .2s ease-in-out,box-shadow .2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    word-break: break-word;
+}
+
+button:active{
+    background-color: #D33A2C;
+    box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
+    color: #FFFFFF;
+}
+
+button:hover {
+    background-color: #FFE3E3;
+    border-color: #FAA4A4;
+}
+
+button:active:hover,
+button:focus:hover,
+button:focus {
+  background-color: #D33A2C;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
+  color: #FFFFFF;
+}
+input {
+    margin: 10px;
+    padding: 10px;
+    width:1000px;
+    align-items: center;
+    background-color: #FFE7E7;
+    background-position: 0 0;
+    border: 1px solid #FEE0E0;
+    border-radius: 11px;
+    box-sizing: border-box;
+    color: #D33A2C;
+    cursor: pointer;
+    display: flex;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 33.4929px;
+    list-style: outside url(https://www.smashingmagazine.com/images/bullet.svg) none;
+    padding: 2px 12px;
+    text-align: left;
+    text-decoration: none;
+    text-shadow: none;
+    text-underline-offset: 1px;
+    transition: border .2s ease-in-out,box-shadow .2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    word-break: break-word;
+}
+select {
+    margin: 10px;
+    padding: 10px;
+    width:1000px;
+    align-items: center;
+    background-color: #FFE7E7;
+    background-position: 0 0;
+    border: 1px solid #FEE0E0;
+    border-radius: 11px;
+    box-sizing: border-box;
+    color: #D33A2C;
+    cursor: pointer;
+    display: flex;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 33.4929px;
+    list-style: outside url(https://www.smashingmagazine.com/images/bullet.svg) none;
+    padding: 2px 12px;
+    text-align: left;
+    text-decoration: none;
+    text-shadow: none;
+    text-underline-offset: 1px;
+    transition: border .2s ease-in-out,box-shadow .2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    word-break: break-word;
+}
