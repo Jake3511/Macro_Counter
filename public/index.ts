@@ -234,7 +234,10 @@ function submitForm(): void {
         calories: count.get_calories(),
         protein: count.get_macros('protein'),
         carbs: count.get_macros('carbs'),
-        fats: count.get_macros('fats')
+        fats: count.get_macros('fats'),
+        protein_cal: count.get_protein(),
+        carbs_cal: count.get_carbs(),
+        fats_cal: count.get_fats()
     };
 
     fetch('/submit', {

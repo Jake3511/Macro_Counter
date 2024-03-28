@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.post('/submit', (req, res) => {
-    const {name, email, calories, protein, carbs, fats} = req.body;
+    const {name, email, calories, protein, carbs, fats, protein_cal, carbs_cal, fats_cal} = req.body;
 
     const transporter = nodemailer.createTransport({
         service: 'gmail',
@@ -28,9 +28,9 @@ app.post('/submit', (req, res) => {
             <p>Hello ${name},</p>
             <p>Here are your macro counter results:</p>
             <p>Calories: ${calories}</p>
-            <p>Protein: ${protein} grams</p>
-            <p>Carbs: ${carbs} grams</p>
-            <p>Fats: ${fats} grams</p>
+            <p>Protein: ${protein_cal} calories with ${protein} grams</p>
+            <p>Carbs: ${carbs_cal} calories with ${carbs} grams</p>
+            <p>Fats: ${fats_cal} calories with ${fats} grams</p>
             <p>Best regards,</p>
             <p>Your Macro Counter Team</p>
         `
