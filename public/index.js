@@ -121,8 +121,8 @@ var macro_counter = /** @class */ (function () {
                 - (5 * parseInt(temp_age)) + 5;
         }
         else {
-            newBMR = (4.536 * this.weight) + (15.88 * ((12 * this.feet) + this.inches))
-                - (5 * this.age) - 161;
+            newBMR = (4.536 * parseInt(temp_weight)) + (15.88 * ((12 * parseInt(temp_feet)) +
+                parseInt(temp_inches))) - (5 * parseInt(temp_age)) - 161;
         }
         if (this.training === 'Basic') {
             console.log(newBMR);
